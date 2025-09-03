@@ -1,0 +1,42 @@
+.nav {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navLink {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.navLink:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  transition: width 0.3s ease;
+}
+
+.navLink:hover {
+  transform: translateY(-2px);
+}
+
+.navLink:hover:after, .navLink.active:after {
+  width: 100%;
+}
+
+
+.main {
+  padding-top: 1rem;
+}
