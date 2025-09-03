@@ -1,0 +1,63 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.userList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.userItem {
+    background: #f8f9ff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    border-left: 4px solid #667eea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.userEmail {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.875rem;
+  color: #888;
+  margin-top: 5px;
+}
+
+.userItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+}
+
+.detailLink {
+  display: none;
+  color: #667eea;
+  position: absolute;
+  font-size: 0.875rem;;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.detailLink:hover {
+  text-decoration: underline;
+}
+
+.userItem:hover .detailLink {
+  display: block;
+}
