@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Gaming",
+    "price": 15000000,
+    "category": "Electronics",
+    "description": "High-performance gaming laptop with RTX graphics"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Premium",
+    "price": 8000000,
+    "category": "Electronics",
+    "description": "Latest smartphone with advanced camera system"
+  },
+  {
+    "id": 3,
+    "name": "Wireless Headphones",
+    "price": 2500000,
+    "category": "Audio",
+    "description": "Noise-cancelling wireless headphones"
+  },
+  {
+    "id": 4,
+    "name": "Smart Watch",
+    "price": 3500000,
+    "category": "Wearables",
+    "description": "Fitness tracker with heart rate monitoring"
+  },
+  {
+    "id": 5,
+    "name": "Mechanical Keyboard",
+    "price": 1800000,
+    "category": "Accessories",
+    "description": "RGB mechanical keyboard for gaming"
+  },
+  {
+    "id": 6,
+    "name": "Kamera Mirrorless",
+    "price": 12500000,
+    "category": "Photography",
+    "description": "High-resolution mirrorless camera for professionals"
+  },
+  {
+    "id": 7,
+    "name": "Konsol Game",
+    "price": 7500000,
+    "category": "Gaming",
+    "description": "Next-generation gaming console with 4K support"
+  },
+  {
+    "id": 8,
+    "name": "Tablet Grafis",
+    "price": 4500000,
+    "category": "Accessories",
+    "description": "Digital drawing tablet for artists and designers"
+  },
+  {
+    "id": 9,
+    "name": "Monitor Gaming Ultrawide",
+    "price": 6200000,
+    "category": "Peripherals",
+    "description": "Ultra-wide gaming monitor with 144Hz refresh rate"
+  },
+  {
+    "id": 10,
+    "name": "Mouse Wireless Ergonomis",
+    "price": 950000,
+    "category": "Accessories",
+    "description": "Ergonomic wireless mouse with customizable buttons"
+  },
+  {
+    "id": 11,
+    "name": "Speaker Bluetooth Portabel",
+    "price": 1200000,
+    "category": "Audio",
+    "description": "Portable Bluetooth speaker with deep bass and waterproof design"
+  },
+  {
+    "id": 12,
+    "name": "Drone Kamera 4K",
+    "price": 10000000,
+    "category": "Gadgets",
+    "description": "4K camera drone with intelligent flight modes and GPS"
+  },
+  {
+    "id": 13,
+    "name": "Proyektor Mini Cerdas",
+    "price": 5500000,
+    "category": "Electronics",
+    "description": "Full HD smart mini projector for home cinema"
+  },
+  {
+    "id": 14,
+    "name": "Hard Drive Eksternal SSD",
+    "price": 2100000,
+    "category": "Storage",
+    "description": "1TB fast and portable solid-state drive"
+  },
+  {
+    "id": 15,
+    "name": "Smart TV 4K 55 Inch",
+    "price": 9500000,
+    "category": "Electronics",
+    "description": "55-inch 4K Smart TV with HDR and Dolby Atmos"
+  }
+]
