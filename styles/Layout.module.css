@@ -9,14 +9,16 @@
 }
 
 .navLink {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: rgba(102, 126, 234, .45);
   font-weight: 500;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   transition: all 0.3s ease;
+  color: #6e62c4;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navLink:after {
@@ -32,11 +34,35 @@
   transform: translateY(-2px);
 }
 
-.navLink:hover:after, .navLink.active:after {
-  width: 100%;
+.navLink.active {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
 }
 
 
 .main {
   padding-top: 1rem;
+}
+
+
+@media (max-width: 600px) {
+  .nav {
+    max-width: 100%;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    gap: 10px;
+    padding: 1rem;
+  }
+  .nav::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  .nav::-webkit-scrollbar-thumb {
+    width: 0;
+    height: 0;
+  }
+  .navLink {
+    flex: 1;
+    min-width: 100px;
+  }
 }
